@@ -1,0 +1,17 @@
+@media screen and (min-width: 800px) {
+    
+    main {
+        min-height: 100vh;
+    }
+
+    .dashboard-title {
+        flex-direction: row !important;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .dash-stats, .overview-wrapper {
+        grid-template-columns: repeat(4, auto);
+        margin: 0 1em;
+    }
+}
